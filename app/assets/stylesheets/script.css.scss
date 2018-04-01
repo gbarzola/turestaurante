@@ -3,3 +3,12 @@
   width: 900px;
   border: 1px solid black;
 }
+
+.search-input {
+	font-family:Courier
+}
+
+.search-input,
+.leaflet-control-search {
+	max-width:400px;
+}

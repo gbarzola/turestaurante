@@ -1,6 +1,10 @@
+
 document.addEventListener("turbolinks:load", function() {
-  var map = L.map("map").setView([-12.0623, -77.0373], 15);
   
+  L.Icon.Default.imagePath = '/assets'
+  var map = L.map("map").setView([-12.0623, -77.0373], 15);
+
+
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);

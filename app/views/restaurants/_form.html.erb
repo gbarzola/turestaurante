@@ -16,7 +16,8 @@
 	<%= f.text_field :ruc %><br>
 	<br>
 	<%= f.label :categoria %><br>
-	<%= f.text_field :categoria %><br>
+	<%= f.select(:categoria, ['Cualquier tipo','Amazonica','Cafeteria','Cebicheria','Chifa','Fusion','Mexicana','Criollo','Pizzeria'], {}) %>
+	<br>
 	<br>
 	<%= f.submit %>
 <% end %>
