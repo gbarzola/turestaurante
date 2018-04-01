@@ -1,0 +1,19 @@
+<%= form_for([@restaurant, @restaurant.sedes.build]) do |f| %>
+	<%= f.label :direccion %><br>
+	<%= f.text_field :direccion %><br>
+	<br>
+	<%= f.label :cantidad_de_mesas %><br>
+	<%= f.text_field :cantidad_de_mesas %><br>
+	<br>
+	<%= f.label :latitud %><br>
+	<%= f.text_field :latitud %><br>
+	<br>
+	<%= f.label :longitud %><br>
+	<%= f.text_field :longitud %><br>
+	<br>
+	<div id="map"></div>
+	<br>
+	<%= f.submit %>
+<% end %>
+
+

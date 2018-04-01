@@ -1,0 +1,6 @@
+<% @restaurants.each do |restaurant| %>
+	<div class="restaurant_wrapper">
+		<h2 class="title"><%= link_to restaurant.razon_social, restaurant %></h2>
+		<p class="date"><%= restaurant.created_at.strftime("%B %d, %Y") %></p>
+	</div>
+<% end %>

@@ -1,0 +1,20 @@
+<div id="post_content">
+	<h1 class="title"><%= @restaurant.razon_social %></h1>
+	<p class="date">
+		Agregado hace <%= time_ago_in_words(@restaurant.created_at) %> 
+		<% if user_signed_in? %>
+		| <%= link_to 'Editar', edit_restaurant_path(@restaurant) %> |
+		  <%= link_to 'Borrar', restaurant_path(@restaurant), method: :delete, data: { confirm: 'Estas seguro/a?' } %>
+	  <% end %>
+	</p>
+	<p class="body"><%= @restaurant.ruc %></p>
+
+	<div id="comments">
+		<h2><%= @restaurant.sedes.count %> Sedes</h2>
+		<%= render @restaurant.sedes %>
+
+		<h3>Agrega una nueva sede:</h3>
+		<%= render "sedes/form" %>
+		
+	</div>
+</div>

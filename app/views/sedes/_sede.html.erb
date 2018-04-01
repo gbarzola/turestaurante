@@ -1,0 +1,16 @@
+<div class="comment clearfix">
+	<div class="comment_content">
+		<p class="comment_name"><strong><%= sede.direccion %></strong></p>
+		<p class="comment_body"><%= sede.cantidad_de_mesas %></p>
+		<p class="comment_body"><%= sede.latitud %></p>
+		<p class="comment_body"><%= sede.longitud %></p>
+		<p class="comment_time"><%= time_ago_in_words(sede.created_at) %> Ago</p>
+	</div>
+
+	<% if user_signed_in? %>
+	<p><%= link_to 'Borrar', [sede.restaurant, sede],
+								  method: :delete,
+								  class: "button",
+								 	data: { confirm: 'Estas seguro?' } %></p>
+ 	<% end %>
+</div>
