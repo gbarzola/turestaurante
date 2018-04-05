@@ -1,0 +1,2 @@
+class PlatosController < ApplicationController
+end
