@@ -5,7 +5,6 @@ class CreateSedes < ActiveRecord::Migration[4.2]
       t.integer :cantidad_de_mesas
       t.string :latitud
       t.string :longitud
-      t.references :restaurant, index: true
 
       t.timestamps
     end

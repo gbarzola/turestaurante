@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180401204003) do
+ActiveRecord::Schema.define(version: 20180405234225) do
 
   create_table "platos", force: :cascade do |t|
     t.string "titulo"
@@ -35,10 +35,9 @@ ActiveRecord::Schema.define(version: 20180401204003) do
     t.integer "cantidad_de_mesas"
     t.string "latitud"
     t.string "longitud"
-    t.integer "restaurant_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["restaurant_id"], name: "index_sedes_on_restaurant_id"
+    t.integer "restaurant_id"
   end
 
   create_table "users", force: :cascade do |t|

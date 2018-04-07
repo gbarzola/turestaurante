@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   
   namespace :api do
     namespace :v1 do
+      resources :users
       resources :restaurants do
-      	resources :sedes
-      	resources :platos
+        resources :sedes
       end
     end
   end
