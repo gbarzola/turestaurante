@@ -16110,3 +16110,97 @@ Completed 200 OK in 85ms (Views: 2.6ms | ActiveRecord: 5.3ms)
 
 
   [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/v1/restaurants" for 179.7.223.35 at 2018-04-07 21:18:19 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 33ms (Views: 14.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/restaurants/1" for 179.7.223.35 at 2018-04-07 21:18:30 +0000
+Processing by Api::V1::RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/restaurants/1/sedes" for 179.7.223.35 at 2018-04-07 21:18:38 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 1]]
+Completed 200 OK in 52ms (Views: 23.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/v1/restaurants/1/sedes/1" for 179.7.223.35 at 2018-04-07 21:18:49 +0000
+Processing by Api::V1::SedesController#show as HTML
+  Parameters: {"restaurant_id"=>"1", "id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? AND "sedes"."id" = ? LIMIT ?[0m  [["restaurant_id", 1], ["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 1.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 179.7.223.35 at 2018-04-07 21:19:56 +0000
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY created_at DESC[0m
+Completed 200 OK in 34ms (Views: 29.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-04-12 00:31:04 +0000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (19.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb__3364688139015460154_44504380 at /home/ubuntu/workspace/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 647ms (Views: 630.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/leaflet.self-f582951b4eba1813eb1fbd8b75893a497f7b0d3a262a5cd073d70fd98b95fc2d.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/leaflet-search.self-85bc620bb94d88c3ee70595c53db0f6265858a25e5bae7806218a003a5f4f9ee.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/_normalize.self-0a4d4e55cd7c999fd17527809ad6e0e626918cbe9d8c11e35c79415e396d148f.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/leaflet-search.mobile.self-167e3bf63de038dc017c8ae39da26b327262c955711a94aa06fc9d200764121a.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/menus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/application.self-50ada7505ac1300bc6049f77cf8a4cfd7960f623ead634df944dc7b3a3d81d28.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/script.self-8670688e2586de568b749560243a0a45da18094cc9b497763de51d2b2c677a10.css?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:05 +0000
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/Leaflet.self-93e164fa8f2aec328808b6e9cb248c4f7cd45f0e204e8281dc7fd463dc1d0407.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/gmaps.self-0d9fa7bb9583db8572da3f0499c69876b0f39c72e73b6b1b1bff4362e1113dbb.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/leaflet-search-geocoder.self-6c17a70a22344cdad0d28b296301a14004182d980b70236a6fba5a792c8dc895.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/leaflet-search.self-ce15ab06b46346623e459016a6ff6586f8c4727430bc8ce66fb4490beb6669a4.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/leaflet-src.self-6c308370ac5396dd7ef1b3db6bb4bf6112f1c093fcb704345dde3e461666e6e5.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/script.self-59dfa0a869f32391153f16fc569e029876e07ecc159c92af3ef6042b52ff45ee.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/menus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/application.self-85a3df08aab34bc6a22c0cf18bd349b5a3fda5edca3e6dead5e0390446173b12.js?body=1" for 200.0.118.173 at 2018-04-12 00:31:06 +0000
+Started GET "/assets/logo-f78fffca604a07b85b8ecae59e39266ce4e44f4107efa15198afb136675885fb.svg" for 200.0.118.173 at 2018-04-12 00:31:07 +0000
+Started GET "/images/favicon.ico" for 200.0.118.173 at 2018-04-12 00:31:07 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
