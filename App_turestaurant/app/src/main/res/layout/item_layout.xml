@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- icon -->
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart" />
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp" />
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:layout_below="@+id/item_name"
+        android:layout_alignLeft="@+id/item_name" />
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/item_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="947847205"
+        android:layout_toRightOf="@+id/item_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"/>
+
+    <View
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/compartir"
+        android:layout_toRightOf="@+id/item_icon"
+        android:background="#ffd5d5d5">
+
+    </View>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compartir"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_share"
+        android:background="@color/material_blue_grey_800" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver_platos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:src="@android:drawable/ic_menu_add"
+        android:background="@color/material_blue_grey_800" />
+</RelativeLayout>
