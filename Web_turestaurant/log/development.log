@@ -16554,3 +16554,425 @@ use the `skip_pipeline: true` option.
 Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 201.240.123.103 at 2018-04-22 23:17:16 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (20.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_34470100 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 737ms (Views: 720.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/leaflet.self-f582951b4eba1813eb1fbd8b75893a497f7b0d3a262a5cd073d70fd98b95fc2d.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/leaflet-search.self-85bc620bb94d88c3ee70595c53db0f6265858a25e5bae7806218a003a5f4f9ee.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/_normalize.self-0a4d4e55cd7c999fd17527809ad6e0e626918cbe9d8c11e35c79415e396d148f.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/leaflet-search.mobile.self-167e3bf63de038dc017c8ae39da26b327262c955711a94aa06fc9d200764121a.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/menus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/script.self-8670688e2586de568b749560243a0a45da18094cc9b497763de51d2b2c677a10.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/application.self-459cd8944b9b29ebedebdbee36dbd4b5485399dd42f97e4a962939cbbb1a49e0.css?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:17 +0000
+Started GET "/assets/Leaflet.self-93e164fa8f2aec328808b6e9cb248c4f7cd45f0e204e8281dc7fd463dc1d0407.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/gmaps.self-0d9fa7bb9583db8572da3f0499c69876b0f39c72e73b6b1b1bff4362e1113dbb.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/leaflet-search-geocoder.self-6c17a70a22344cdad0d28b296301a14004182d980b70236a6fba5a792c8dc895.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/leaflet-search.self-ce15ab06b46346623e459016a6ff6586f8c4727430bc8ce66fb4490beb6669a4.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/leaflet-src.self-6c308370ac5396dd7ef1b3db6bb4bf6112f1c093fcb704345dde3e461666e6e5.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/menus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/script.self-59dfa0a869f32391153f16fc569e029876e07ecc159c92af3ef6042b52ff45ee.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:18 +0000
+Started GET "/assets/application.self-85a3df08aab34bc6a22c0cf18bd349b5a3fda5edca3e6dead5e0390446173b12.js?body=1" for 201.240.123.103 at 2018-04-22 23:17:19 +0000
+Started GET "/assets/logo-03fb20baf3f394799cb8a1f23506dbb1b4d7a728ba27896548fed2fd4c8a035d.png" for 201.240.123.103 at 2018-04-22 23:17:20 +0000
+Started GET "/images/favicon.ico" for 201.240.123.103 at 2018-04-22 23:17:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/api/v1/restaurants" for 201.240.123.103 at 2018-04-22 23:18:38 +0000
+Processing by Api::V1::RestaurantsController#index as */*
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Central"], ["ruc", 81831034], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.480242"], ["updated_at", "2018-04-22 23:24:49.480242"]]
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Circulo"], ["ruc", 66831065], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.497083"], ["updated_at", "2018-04-22 23:24:49.497083"]]
+  [1m[35m (17.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Tacacho"], ["ruc", 81881023], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.517712"], ["updated_at", "2018-04-22 23:24:49.517712"]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Platano&Coco"], ["ruc", 11131990], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.533012"], ["updated_at", "2018-04-22 23:24:49.533012"]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Surii"], ["ruc", 81831077], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.548251"], ["updated_at", "2018-04-22 23:24:49.548251"]]
+  [1m[35m (13.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["razon_social", "Tacataca"], ["ruc", 99831000], ["categoria", "Amazonica"], ["created_at", "2018-04-22 23:24:49.565176"], ["updated_at", "2018-04-22 23:24:49.565176"]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 201.240.123.103 at 2018-04-22 23:24:55 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.0ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988039096820 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/restaurants" for 201.240.123.103 at 2018-04-22 23:26:28 +0000
+Processing by Api::V1::RestaurantsController#index as */*
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/restaurants/1" for 201.240.123.103 at 2018-04-22 23:27:01 +0000
+Processing by Api::V1::RestaurantsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 1.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 201.240.123.103 at 2018-04-22 23:27:14 +0000
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY created_at DESC[0m
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/sedes" for 201.240.123.103 at 2018-04-22 23:27:36 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/sedes"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/restaurants/1" for 201.240.123.103 at 2018-04-22 23:27:45 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  Rendered collection of sedes/_sede.html.erb [4 times] (2.9ms)
+  Rendered sedes/_form.html.erb (14.2ms)
+  Rendered restaurants/show.html.erb within layouts/application (168.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988043624060 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 224ms (Views: 215.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/sedes" for 201.240.123.103 at 2018-04-22 23:29:12 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/sedes"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/api/v1/sedes" for 201.240.123.103 at 2018-04-22 23:29:24 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/sedes"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/api/v1/restaurants/1/sedes" for 201.240.123.103 at 2018-04-22 23:29:35 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.5ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 1]]
+Completed 200 OK in 11ms (Views: 4.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/restaurants/1/sedes" for 201.240.123.103 at 2018-04-22 23:29:54 +0000
+Processing by Api::V1::SedesController#index as */*
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 1]]
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/restaurants/1/sedes" for 201.240.123.103 at 2018-04-22 23:58:10 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"1"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 1]]
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 201.240.123.103 at 2018-04-22 23:58:12 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988080761180 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 201.240.123.103 at 2018-04-22 23:58:50 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (88.2ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69987935069620 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 141ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 201.240.123.103 at 2018-04-22 23:59:01 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988039209380 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 201.240.123.103 at 2018-04-22 23:59:11 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988042961200 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 201.240.123.103 at 2018-04-22 23:59:12 +0000
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (5.2ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988035706400 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 56ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 201.240.123.103 at 2018-04-22 23:59:20 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988041212140 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants" for 201.240.123.103 at 2018-04-22 23:59:22 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988038616820 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about" for 201.240.123.103 at 2018-04-22 23:59:24 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988083238980 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 50ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile-13a1677af77c3744be111bf74540907b96587025294ed0e062bc03f708ce8f5f.jpg" for 201.240.123.103 at 2018-04-22 23:59:25 +0000
+Started GET "/users/sign_in" for 201.240.123.103 at 2018-04-22 23:59:41 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988078726220 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 201.240.123.103 at 2018-04-22 23:59:44 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jgCJahKSDT2JNQOIgdckvOMDtxhljfLanJUg9+sIdvQ9DsBffJrHG4jWTxS+8ySC66hnjNNyNdve1kuzsiOu8g==", "user"=>{"email"=>"g@g.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "g@g.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-04-22 23:59:44.255676"], ["current_sign_in_ip", "201.240.123.103"], ["sign_in_count", 2], ["updated_at", "2018-04-22 23:59:44.258183"], ["id", 1]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/
+Completed 302 Found in 145ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/" for 201.240.123.103 at 2018-04-22 23:59:44 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988036963440 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/new" for 201.240.123.103 at 2018-04-22 23:59:47 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.5ms)
+  Rendered restaurants/new.html.erb within layouts/application (8.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69987935554540 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 55ms (Views: 48.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 201.240.123.103 at 2018-04-23 00:04:45 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988039225240 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 65ms (Views: 60.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/restaurants/7" for 201.240.123.103 at 2018-04-23 00:04:46 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered sedes/_form.html.erb (5.2ms)
+  Rendered restaurants/show.html.erb within layouts/application (14.4ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___1214030052985034211_69988043385460 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 1.4ms)
+
+

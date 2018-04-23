@@ -6,4 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Restaurant.create(razon_social: 'Central', RUC: 81831000)
+Restaurant.create(razon_social: 'Central', ruc: 81831034, categoria: 'Amazonica')
+Restaurant.create(razon_social: 'Circulo', ruc: 66831065, categoria: 'Amazonica')
+Restaurant.create(razon_social: 'Tacacho', ruc: 81881023, categoria: 'Amazonica')
+Restaurant.create(razon_social: 'Platano&Coco', ruc: 11131990, categoria: 'Amazonica')
+Restaurant.create(razon_social: 'Surii', ruc: 81831077, categoria: 'Amazonica')
+Restaurant.create(razon_social: 'Tacataca', ruc: 99831000, categoria: 'Amazonica')
