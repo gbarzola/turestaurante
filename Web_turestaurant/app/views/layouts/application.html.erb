@@ -11,14 +11,14 @@
 	<div id="sidebar">
 		<div id="logo">
 			<%= link_to root_path do %>
-				<%= image_tag "logo.png", with: '20', height: '50' %>
+				<%= image_tag "logo1.png", with: '20', height: '50' %>
 			<% end %>
 		</div>
 
 		<ul>
 			<li class="category">Website</li>
 			<li><%= link_to "Datos de restaurante", root_path %></li>
-			<li><%= link_to "Platos" %></li>
+			<li><%= link_to "Platos", platos_path %></li>
 			<li><%= link_to "Equipo", about_path %></li>
 		</ul>
 

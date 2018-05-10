@@ -5,6 +5,7 @@ class PlatosController < ApplicationController
   # GET /platos.json
   def index
     @platos = Plato.all
+    @sedes = Sede.all
   end
 
   # GET /platos/1
@@ -69,6 +70,6 @@ class PlatosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def plato_params
-      params.require(:plato).permit(:nombre_plato, :precio_plato, :categoria_plato, :descripcion_plato, :cantidad_porciones)
+      params.require(:plato).permit(:nombre_plato, :precio_plato, :categoria_plato, :descripcion_plato, :cantidad_porciones, :sede_id)
     end
 end

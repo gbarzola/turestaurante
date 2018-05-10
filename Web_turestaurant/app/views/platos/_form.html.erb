@@ -12,6 +12,16 @@
   <% end %>
 
   <div class="field">
+    <%= form.label :restaurant_id %>
+  	<%= form.collection_select :restaurant_id, Restaurant.order(:id),:id,:razon_social %>
+	</div>
+  
+  <div class="field">
+    <%= form.label :sede_id %>
+  	<%= form.grouped_collection_select :sede_id, Restaurant.order(:id),:sedes,:razon_social,:id,:direccion %>
+	</div>
+
+  <div class="field">
     <%= form.label :nombre_plato %>
     <%= form.text_field :nombre_plato, id: :plato_nombre_plato %>
   </div>
@@ -23,7 +33,7 @@
 
   <div class="field">
     <%= form.label :categoria_plato %>
-    <%= form.text_field :categoria_plato, id: :plato_categoria_plato %>
+    <%= form.select(:categoria_plato, ['Ejecutivo','Menu', 'Dieta'], {}) %>
   </div>
 
   <div class="field">

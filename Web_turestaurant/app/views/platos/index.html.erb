@@ -5,6 +5,8 @@
 <table>
   <thead>
     <tr>
+      <th>Restaurant</th>
+      <th>Sede</th>
       <th>Nombre plato</th>
       <th>Precio plato</th>
       <th>Categoria plato</th>
@@ -16,7 +18,10 @@
 
   <tbody>
     <% @platos.each do |plato| %>
+      
       <tr>
+        <td><%= Restaurant.find(Sede.find(plato.sede_id).restaurant_id).razon_social %></td>
+        <td><%= Sede.find(plato.sede_id).direccion %></td>
         <td><%= plato.nombre_plato %></td>
         <td><%= plato.precio_plato %></td>
         <td><%= plato.categoria_plato %></td>
@@ -26,6 +31,7 @@
         <td><%= link_to 'Edit', edit_plato_path(plato) %></td>
         <td><%= link_to 'Destroy', plato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+       
     <% end %>
   </tbody>
 </table>

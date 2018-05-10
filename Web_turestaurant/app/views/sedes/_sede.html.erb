@@ -1,10 +1,13 @@
 <div class="comment clearfix">
 	<div class="comment_content">
-		<p class="comment_name"><strong><%= sede.direccion %></strong></p>
-		<p class="comment_body"><%= sede.cantidad_de_mesas %></p>
-		<p class="comment_body"><%= sede.latitud %></p>
-		<p class="comment_body"><%= sede.longitud %></p>
-		<p class="comment_time"><%= time_ago_in_words(sede.created_at) %> Ago</p>
+		<p class="comment_name"><strong>Nombre : <%= sede.direccion %></strong></p>
+		<p class="comment_body">Mesas : <%= sede.cantidad_de_mesas %></p>
+		<p class="comment_body">Latitud : <%= sede.latitud %></p>
+		<p class="comment_body">Longitud : <%= sede.longitud %></p>
+		<p class="comment_time">Hace <%= time_ago_in_words(sede.created_at) %></p>
+		<div id="mapid"></div>
+		
+		
 	</div>
 
 	<% if user_signed_in? %>

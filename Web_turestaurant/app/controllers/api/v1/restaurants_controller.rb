@@ -4,7 +4,8 @@ class Api::V1::RestaurantsController < ApplicationController
     
     def index
         restaurants = Restaurant.order("created_at DESC")
-        render json: {status: 'Exitoso', message: 'Restaurants cargados', data: restaurants}, status: :ok
+        render json: {status: 'Exitoso', message: 'Lista de Restaurants', data: restaurants}, status: :ok
+
     end
     
     def show
@@ -15,16 +16,13 @@ class Api::V1::RestaurantsController < ApplicationController
     def create
         restaurant = Restaurant.new(restaurant_params)
         
-        if Restaurant.exists?(id: restaurant.id)
-            if restaurant.save
-                render json: {status: 'Exitoso', message: 'Restaurant creado', data: restaurant}, status: :ok
-            else
-                render json: {status: 'Error', message: 'No se grabo restaurant', data: restaurant.errors}, status: :unprocessable_entity
-            end
+        if restaurant.save
+            render json: {status: 'Exitoso', message: 'Restaurant creado', data: restaurant}, status: :ok
+            
         else
-            render json: {status: 'Error', message: 'No debe tener el mismo id', data: restaurant.errors}, status: :unprocessable_entity
+            render json: {status: 'Error', message: 'No se grabo restaurant', data: restaurant.errors}, status: :unprocessable_entity
         end
-        
+
     end
     
     def destroy
@@ -46,7 +44,7 @@ class Api::V1::RestaurantsController < ApplicationController
     private
     
     def restaurant_params
-        params.permit(:id, :razon_social, :ruc, :categoria)
+        params.permit(:id, :razon_social, :ruc, :categoria, :avatar)
     end
     
 end

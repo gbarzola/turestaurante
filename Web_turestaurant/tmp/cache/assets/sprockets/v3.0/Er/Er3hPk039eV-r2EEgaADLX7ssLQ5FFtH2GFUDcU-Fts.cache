@@ -1,0 +1,9 @@
+I"ˆ(function() {
+  $(function() {
+    var sede;
+    sede = $('#plato_sede_id').html();
+    return console.log(sede);
+  });
+
+}).call(this);
+:ET

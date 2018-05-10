@@ -1,0 +1,16 @@
+I"Ç(function() {
+  jQuery(function() {
+    var options, restaurant, sedes;
+    sedes = $('#plato_sedes_id').html();
+    $('#plato_restaurant_id').change(function() {});
+    restaurant = $('#plato_restaurant_id :selected').text();
+    options = $(sedes).filter("optgroup[label='" + restaurant + "']").html();
+    if (options) {
+      return $('plato_sedes_id').html(options);
+    } else {
+      return $('plato_sedes_id').empty();
+    }
+  });
+
+}).call(this);
+:ET
