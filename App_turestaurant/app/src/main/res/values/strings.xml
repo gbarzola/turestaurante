@@ -1,10 +1,20 @@
 <resources>
     <string name="app_name">Sistemas Distribuidos</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <string name="action_settings">Settings</string>
     <string name="title_activity_restaurant">RestaurantActivity</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="person_name">Hadson Paredes Cordova</string>
+    <string name="person_address">Av. Las Azucenas - El Agusino, PERÚ</string>
+
+    <string name="name_restaurant">Tu Restaurante</string>
+    <string name="name_sedes">Sedes</string>
+
 </resources>

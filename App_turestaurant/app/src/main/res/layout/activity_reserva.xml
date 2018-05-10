@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.losdistribuidos.turestaurante.ReservaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Realizar Pago"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/et_concepto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/et_monto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@id/et_concepto"/>
+
+        <EditText
+            android:id="@+id/et_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@id/et_monto"
+            android:text="Hadson"/>
+
+        <EditText
+            android:id="@+id/et_dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@id/et_usuario"
+            android:text="44406540"/>
+
+        <EditText
+            android:id="@+id/et_tarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@id/et_dni"
+            android:text="5115555869549658"/>
+
+        <Button
+            android:id="@+id/btn_invoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_below="@id/et_tarjeta"/>
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Confirm"
+            android:layout_below="@+id/btn_invoke"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
