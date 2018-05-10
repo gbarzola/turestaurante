@@ -28376,3 +28376,1661 @@ Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms)
 ActiveRecord::RecordNotFound (Couldn't find Restaurant with 'id'=0):
   
 app/controllers/api/v1/sedes_controller.rb:3:in `index'
+Started GET "/" for 200.0.118.173 at 2018-05-10 01:36:25 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (41.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139684199660 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 122ms (Views: 110.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/mensajes/respuesta" for 200.0.118.173 at 2018-05-10 01:36:58 +0000
+Processing by MensajesController#respuesta as HTML
+  Rendering mensajes/respuesta.html.erb within layouts/application
+  Rendered mensajes/respuesta.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:9: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );
+                                    ^
+/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/mensajes/respuesta.html.erb:9: syntax error, unexpected keyword_end
+app/views/mensajes/respuesta.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/mensajes/respuesta.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/mensajes/respuesta" for 200.0.118.173 at 2018-05-10 01:37:14 +0000
+Processing by MensajesController#respuesta as HTML
+  Rendering mensajes/respuesta.html.erb within layouts/application
+  Rendered mensajes/respuesta.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:9: syntax error, unexpected keyword_end
+'.freeze;@output_buffer.append=( end );
+                                    ^
+/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/Web_turestaurant/app/views/mensajes/respuesta.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/mensajes/respuesta.html.erb:9: syntax error, unexpected keyword_end
+app/views/mensajes/respuesta.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/mensajes/respuesta.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/mensajes/respuesta" for 200.0.118.173 at 2018-05-10 01:37:32 +0000
+Processing by MensajesController#respuesta as HTML
+  Rendering mensajes/respuesta.html.erb within layouts/application
+  Rendered mensajes/respuesta.html.erb within layouts/application (0.9ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_36041520 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 255ms (Views: 247.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mensajes/index" for 200.0.118.173 at 2018-05-10 01:37:38 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/mensajes/index"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/mensajes/index" for 200.0.118.173 at 2018-05-10 01:38:57 +0000
+Processing by MensajesController#index as HTML
+  Rendering mensajes/index.html.erb within layouts/application
+  Rendered mensajes/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    2: <p>
+    3:     <label>Hola tuRestaurante
+    4:     <br> 
+    5:     <%= text_field :msg %>
+    6:     </label> 
+    7: </p>
+    8: <%= submit_tag 'Enviar' %>
+  
+app/views/mensajes/index.html.erb:5:in `block in _app_views_mensajes_index_html_erb___3113750757051132649_70139675469420'
+app/views/mensajes/index.html.erb:1:in `_app_views_mensajes_index_html_erb___3113750757051132649_70139675469420'
+Started GET "/mensajes/index" for 200.0.118.173 at 2018-05-10 01:42:36 +0000
+Processing by MensajesController#index as HTML
+  Rendering mensajes/index.html.erb within layouts/application
+  Rendered mensajes/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 16ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    2: <p>
+    3:     <label>Hola tuRestaurante
+    4:     <br> 
+    5:     <%= text_field :msg %>
+    6:     </label> 
+    7: </p>
+    8: <%= submit_tag 'Enviar' %>
+  
+app/views/mensajes/index.html.erb:5:in `block in _app_views_mensajes_index_html_erb___3113750757051132649_70139675972020'
+app/views/mensajes/index.html.erb:1:in `_app_views_mensajes_index_html_erb___3113750757051132649_70139675972020'
+Started GET "/" for 200.0.118.173 at 2018-05-10 01:54:05 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (46.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139682916620 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 161ms (Views: 145.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/users/sign_in" for 200.0.118.173 at 2018-05-10 01:54:09 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.9ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139684187100 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 160ms (Views: 111.1ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/users/sign_in" for 200.0.118.173 at 2018-05-10 01:54:14 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ikSdxqF4Njo1itKVpMpo62Ev9ZE6w8ZUvsvavLoLuHIKpx9d9OOtitmgy5s7eizD1bJNnl2XwOfbfxnza+A2bw==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-05-10 01:54:15.153430"], ["last_sign_in_at", "2018-05-09 11:38:56.107844"], ["current_sign_in_ip", "200.0.118.173"], ["sign_in_count", 4], ["updated_at", "2018-05-10 01:54:15.157039"], ["id", 6]]
+  [1m[35m (11.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/
+Completed 302 Found in 194ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 01:54:15 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139683097680 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/new" for 200.0.118.173 at 2018-05-10 01:54:18 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (7.7ms)
+  Rendered restaurants/new.html.erb within layouts/application (10.3ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139692372200 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 80ms (Views: 73.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/restaurants" for 200.0.118.173 at 2018-05-10 01:54:53 +0000
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4rY7AHBiXz44fctLRRtOaZEulF0fcNbBbRLJ2AmcwhO2yXP/LTCRcabCbKwxcWIpfYuGwTIYy+yhJkZBiJfniw==", "restaurant"=>{"razon_social"=>"Examen Final UPC", "ruc"=>"6666666666", "categoria"=>"Cebicheria", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f9555542058 @tempfile=#<Tempfile:/tmp/RackMultipart20180510-1671-o5bsmr.PNG>, @original_filename="icono4.PNG", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"restaurant[avatar]\"; filename=\"icono4.PNG\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Create Restaurant"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[paperclip] Trying to link /tmp/RackMultipart20180510-1671-o5bsmr.PNG to /tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG
+[paperclip] Trying to link /tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG to /tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-tfbs24.PNG
+Command :: file -b --mime '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-tfbs24.PNG'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]'
+Command :: convert '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]' -auto-orient -resize "300x300" '/tmp/53d3edbb615abb9879a649a9a17db88120180510-1671-1udbmlk'
+[paperclip] Trying to link /tmp/53d3edbb615abb9879a649a9a17db88120180510-1671-1udbmlk to /tmp/313f28ba8a25925b1d8f86b5f6df010e20180510-1671-18gobcd
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]'
+Command :: convert '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG[0]' -auto-orient -resize "100x100" '/tmp/53d3edbb615abb9879a649a9a17db88120180510-1671-2l7oqh'
+[paperclip] Trying to link /tmp/53d3edbb615abb9879a649a9a17db88120180510-1671-2l7oqh to /tmp/1d4c0449d0bc0043049e7dfa3d4f3b1620180510-1671-7jjvzi
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+[paperclip] Trying to link /tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-d45qgb.PNG to /tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-ohql41.PNG
+Command :: file -b --mime '/tmp/e970b4d3e616ad8468352d2fdf78d49820180510-1671-ohql41.PNG'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["razon_social", "Examen Final UPC"], ["ruc", 6666666666], ["categoria", "Cebicheria"], ["created_at", "2018-05-10 01:54:53.703310"], ["updated_at", "2018-05-10 01:54:53.703310"], ["avatar_file_name", "icono4.PNG"], ["avatar_content_type", "image/png"], ["avatar_file_size", 9019], ["avatar_updated_at", "2018-05-10 01:54:53.217997"]]
+  [1m[35m (14.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/restaurants/19
+Completed 302 Found in 522ms (ActiveRecord: 16.3ms)
+
+
+Started GET "/restaurants/19" for 200.0.118.173 at 2018-05-10 01:54:53 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered sedes/_form.html.erb (20.4ms)
+  Rendered restaurants/show.html.erb within layouts/application (39.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139678488140 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 106ms (Views: 99.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assetsmarker-icon.png" for 200.0.118.173 at 2018-05-10 01:55:23 +0000
+Started GET "/assetsmarker-shadow.png" for 200.0.118.173 at 2018-05-10 01:55:23 +0000
+Started POST "/restaurants/19/sedes" for 200.0.118.173 at 2018-05-10 01:55:26 +0000
+Processing by SedesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/FT0r7dU2SNtrXsXV+mNWkdMAr5ph19Hi3PDblXyvUyoK7xQ6gYXbPMS3PAjg6Eaq+kQIkTvQmpHR0z31PmY1A==", "sede"=>{"direccion"=>"Av. San Juanito", "cantidad_de_mesas"=>"6", "latitud"=>"-12.062772368908359", "longitud"=>"-77.03926563262941"}, "commit"=>"Crear sede", "restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "sedes" ("direccion", "cantidad_de_mesas", "latitud", "longitud", "created_at", "updated_at", "restaurant_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["direccion", "Av. San Juanito"], ["cantidad_de_mesas", 6], ["latitud", "-12.062772368908359"], ["longitud", "-77.03926563262941"], ["created_at", "2018-05-10 01:55:26.395782"], ["updated_at", "2018-05-10 01:55:26.395782"], ["restaurant_id", 19]]
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/restaurants/19
+Completed 302 Found in 25ms (ActiveRecord: 14.6ms)
+
+
+Started GET "/restaurants/19" for 200.0.118.173 at 2018-05-10 01:55:26 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered collection of sedes/_sede.html.erb [1 times] (2.8ms)
+  Rendered sedes/_form.html.erb (5.8ms)
+  Rendered restaurants/show.html.erb within layouts/application (23.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139850824580 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 95ms (Views: 90.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 01:55:28 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/restaurants/19/sedes" for 132.157.129.134 at 2018-05-10 01:55:50 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mSede Load (0.7ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 19]]
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assetsmarker-icon.png" for 200.0.118.173 at 2018-05-10 01:56:32 +0000
+Started GET "/assetsmarker-shadow.png" for 200.0.118.173 at 2018-05-10 01:56:32 +0000
+Started POST "/restaurants/19/sedes" for 200.0.118.173 at 2018-05-10 01:56:43 +0000
+Processing by SedesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GuHUgqd0PtUqqlbQSkkZIhYRkJ06LWM+A+mQUy/yGb1Onpx9+ibwmrQV8Tc+IzVi+rSCARdFfhPP3R/Krvk8JQ==", "sede"=>{"direccion"=>"Av. Mala muerte", "cantidad_de_mesas"=>"666", "latitud"=>"-12.064166481158304", "longitud"=>"-76.98892593383789"}, "commit"=>"Crear sede", "restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "sedes" ("direccion", "cantidad_de_mesas", "latitud", "longitud", "created_at", "updated_at", "restaurant_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["direccion", "Av. Mala muerte"], ["cantidad_de_mesas", 666], ["latitud", "-12.064166481158304"], ["longitud", "-76.98892593383789"], ["created_at", "2018-05-10 01:56:43.131872"], ["updated_at", "2018-05-10 01:56:43.131872"], ["restaurant_id", 19]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/restaurants/19
+Completed 302 Found in 28ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/restaurants/19" for 200.0.118.173 at 2018-05-10 01:56:43 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  [1m[36mSede Load (0.6ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered collection of sedes/_sede.html.erb [2 times] (3.6ms)
+  Rendered sedes/_form.html.erb (6.1ms)
+  Rendered restaurants/show.html.erb within layouts/application (27.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139837604360 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 105ms (Views: 99.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 01:57:33 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.9ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.7ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.1ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (39.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_25347680 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 116ms (Views: 99.8ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 01:57:36 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (67.5ms)
+  Rendered platos/new.html.erb within layouts/application (69.9ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139677413200 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 127ms (Views: 120.1ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 01:57:37 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/restaurants/19/sedes" for 132.157.129.134 at 2018-05-10 01:57:43 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mSede Load (1.0ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 19]]
+Completed 200 OK in 20ms (Views: 7.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/v1/restaurants/0/sedes" for 132.157.129.134 at 2018-05-10 01:57:47 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"0"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Restaurant with 'id'=0):
+  
+app/controllers/api/v1/sedes_controller.rb:3:in `index'
+Started POST "/platos" for 200.0.118.173 at 2018-05-10 01:58:08 +0000
+Processing by PlatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wLDhrpuYPBwaj9p1TLON8fzZdmHpoofcpMotoQku61qUz6lRxsryU4QwfZI42aGxEHxk/cTKmvFo/qI4iCXOwg==", "plato"=>{"restaurant_id"=>"19", "sede_id"=>"4", "nombre_plato"=>"Ceviche", "precio_plato"=>"30", "categoria_plato"=>"Dieta", "descripcion_plato"=>"Dietita pa ti", "cantidad_porciones"=>"6"}, "commit"=>"Create Plato"}
+Unpermitted parameter: :restaurant_id
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "platos" ("nombre_plato", "precio_plato", "categoria_plato", "descripcion_plato", "cantidad_porciones", "created_at", "updated_at", "sede_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["nombre_plato", "Ceviche"], ["precio_plato", 30.0], ["categoria_plato", "Dieta"], ["descripcion_plato", "Dietita pa ti"], ["cantidad_porciones", 6], ["created_at", "2018-05-10 01:58:08.357207"], ["updated_at", "2018-05-10 01:58:08.357207"], ["sede_id", 4]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://turestaurante-gbarzola1.c9users.io/platos/3
+Completed 302 Found in 22ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/platos/3" for 200.0.118.173 at 2018-05-10 01:58:08 +0000
+Processing by PlatosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPlato Load (0.5ms)[0m  [1m[34mSELECT  "platos".* FROM "platos" WHERE "platos"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering platos/show.html.erb within layouts/application
+  Rendered platos/show.html.erb within layouts/application (1.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139675891560 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 63ms (Views: 58.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 01:58:11 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.6ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.1ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.1ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (16.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139691156340 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 80ms (Views: 75.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 01:59:42 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:03:09 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (32.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139686758220 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 124ms (Views: 114.6ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:03:14 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.5ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (47.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139694033000 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 111ms (Views: 95.4ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 02:05:09 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/restaurants/19/sedes" for 132.157.129.134 at 2018-05-10 02:06:35 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 19]]
+Completed 200 OK in 14ms (Views: 5.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:08:11 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.7ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (15.9ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139678149040 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 85ms (Views: 78.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:10:27 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (13.0ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139854009620 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 117ms (Views: 110.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:10:30 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.4ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (12.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139843915340 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 75ms (Views: 70.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:10:31 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.0ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139838226820 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/19" for 200.0.118.173 at 2018-05-10 02:10:33 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered collection of sedes/_sede.html.erb [2 times] (3.2ms)
+  Rendered sedes/_form.html.erb (5.8ms)
+  Rendered restaurants/show.html.erb within layouts/application (22.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_36333700 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 109ms (Views: 104.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/restaurants/new" for 200.0.118.173 at 2018-05-10 02:10:36 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (4.2ms)
+  Rendered restaurants/new.html.erb within layouts/application (6.0ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139685728000 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 65ms (Views: 54.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:11:36 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.6ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (12.5ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139674029960 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 71ms (Views: 65.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:13:07 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.5ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (11.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139689385940 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139689385940 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139689385940 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 168ms (Views: 162.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/platos.self-c3ed5f87862beef143983c8f0f4e64247598d22a460b82578664da9e2403bec2.css?body=1" for 200.0.118.173 at 2018-05-10 02:13:07 +0000
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:13:53 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.7ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (14.7ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139683703840 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139683703840 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139683703840 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 172ms (Views: 165.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/platos.self-b9e32a08e10c9355c53472eaa77bc967b1d0610374dac598671dae0c95e6fb2a.css?body=1" for 200.0.118.173 at 2018-05-10 02:13:54 +0000
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:13:56 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.4ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (10.3ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139675761600 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 68ms (Views: 63.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:14:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:14:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:15:00 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.4ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (10.4ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139675706420 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.css.scss to /home/ubuntu/workspace/Web_turestaurant/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___3959343469545337183_70139675706420 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139675706420 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 156ms (Views: 151.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/platos.self-51af712f1f7ae2bca39525005b37a7b787717f4f518e14b0362f646b5ecdd1fc.css?body=1" for 200.0.118.173 at 2018-05-10 02:15:01 +0000
+Started GET "/platos" for 200.0.118.173 at 2018-05-10 02:16:21 +0000
+Processing by PlatosController#index as HTML
+  Rendering platos/index.html.erb within layouts/application
+  [1m[36mPlato Load (0.9ms)[0m  [1m[34mSELECT "platos".* FROM "platos"[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Sede Load (0.0ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered platos/index.html.erb within layouts/application (17.6ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139838920780 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 87ms (Views: 79.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:16:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:16:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:16:36 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (28.7ms)
+  Rendered platos/new.html.erb within layouts/application (31.1ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139690174440 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 84ms (Views: 77.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:18:14 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (35.7ms)
+  Rendered platos/new.html.erb within layouts/application (38.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139673996580 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 105ms (Views: 96.8ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:18:38 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (7.8ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139683775920 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 62ms (Views: 58.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/19" for 200.0.118.173 at 2018-05-10 02:18:39 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered collection of sedes/_sede.html.erb [2 times] (2.7ms)
+  Rendered sedes/_form.html.erb (4.4ms)
+  Rendered restaurants/show.html.erb within layouts/application (17.5ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139674942220 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 70ms (Views: 65.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/restaurants/new" for 200.0.118.173 at 2018-05-10 02:18:42 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (3.8ms)
+  Rendered restaurants/new.html.erb within layouts/application (5.7ms)
+DEPRECATION WARNING: The asset "favicon.ico" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___3959343469545337183_70139677615960 at /home/ubuntu/workspace/Web_turestaurant/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:20:00 +0000
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:20:00 +0000
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:20:55 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (35.6ms)
+  Rendered platos/new.html.erb within layouts/application (37.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 107ms (Views: 98.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:21:02 +0000
+  
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:21:02 +0000
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:21:14 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (33.8ms)
+  Rendered platos/new.html.erb within layouts/application (35.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 284ms (Views: 277.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self-33d1e7683952cbfff330adcdc87455d52c426c878ea2235217a967caf98366f3.css?body=1" for 200.0.118.173 at 2018-05-10 02:21:14 +0000
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:21:15 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/api/v1/restaurants/18/sedes" for 132.157.129.134 at 2018-05-10 02:21:39 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"18"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mSede Load (0.5ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 18]]
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/restaurants/17/sedes" for 132.157.129.134 at 2018-05-10 02:21:47 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"17"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 17]]
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/new" for 200.0.118.173 at 2018-05-10 02:21:58 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (7.8ms)
+  Rendered restaurants/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 81ms (Views: 73.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:21:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:21:59 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:22:05 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.6ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (39.6ms)
+  Rendered platos/new.html.erb within layouts/application (42.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 106ms (Views: 97.1ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:22:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:22:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/bootstrap-grid.css.map" for 200.0.118.173 at 2018-05-10 02:22:10 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-grid.css.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/assets/leaflet-src.js.map" for 200.0.118.173 at 2018-05-10 02:22:10 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/assets/leaflet-src.js.map"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/platos/new" for 200.0.118.173 at 2018-05-10 02:23:08 +0000
+Processing by PlatosController#new as HTML
+  Rendering platos/new.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mCACHE Restaurant Load (0.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY "restaurants"."id" ASC[0m
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 1]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 2]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 3]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 4]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 5]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 6]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 7]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 8]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 9]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 10]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 11]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 12]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 13]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 16]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 17]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 18]]
+  [1m[36mSede Load (0.2ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 19]]
+  Rendered platos/_form.html.erb (33.4ms)
+  Rendered platos/new.html.erb within layouts/application (35.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 111ms (Views: 103.7ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 02:27:21 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/restaurants/19/sedes" for 132.157.129.134 at 2018-05-10 02:27:24 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"19"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mSede Load (0.6ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 19]]
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/about" for 200.0.118.173 at 2018-05-10 02:28:35 +0000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (7.8ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 108ms (Views: 102.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/profile-13a1677af77c3744be111bf74540907b96587025294ed0e062bc03f708ce8f5f.jpg" for 200.0.118.173 at 2018-05-10 02:28:35 +0000
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:47:21 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 125ms (Views: 119.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/leaflet-search.self-85bc620bb94d88c3ee70595c53db0f6265858a25e5bae7806218a003a5f4f9ee.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/leaflet.self-f582951b4eba1813eb1fbd8b75893a497f7b0d3a262a5cd073d70fd98b95fc2d.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/_normalize.self-0a4d4e55cd7c999fd17527809ad6e0e626918cbe9d8c11e35c79415e396d148f.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/bootstrap-grid.self-51ef91a28ff16c39e5afbe74d729e0e22d7ac25499d46d6becca40528dcb24a0.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/leaflet-search.mobile.self-167e3bf63de038dc017c8ae39da26b327262c955711a94aa06fc9d200764121a.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/mensajes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/menus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/platos.self-51af712f1f7ae2bca39525005b37a7b787717f4f518e14b0362f646b5ecdd1fc.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/scaffolds.self-8e01b7c1826ae4848368bd25724bd496336bf212e8edd9fea55b6eb3e0ce506e.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/script.self-8670688e2586de568b749560243a0a45da18094cc9b497763de51d2b2c677a10.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/application.self-33d1e7683952cbfff330adcdc87455d52c426c878ea2235217a967caf98366f3.css?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/Leaflet.self-93e164fa8f2aec328808b6e9cb248c4f7cd45f0e204e8281dc7fd463dc1d0407.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/gmaps.self-0d9fa7bb9583db8572da3f0499c69876b0f39c72e73b6b1b1bff4362e1113dbb.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/leaflet-search-geocoder.self-6c17a70a22344cdad0d28b296301a14004182d980b70236a6fba5a792c8dc895.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/leaflet-search.self-ce15ab06b46346623e459016a6ff6586f8c4727430bc8ce66fb4490beb6669a4.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:22 +0000
+Started GET "/assets/leaflet-src.self-6c308370ac5396dd7ef1b3db6bb4bf6112f1c093fcb704345dde3e461666e6e5.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/mensajes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/menus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/platos.self-c5e1a6d452df05e455cf29c135a4db9fc9626ed55b1b41c7040b501405f56d7c.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/script.self-59dfa0a869f32391153f16fc569e029876e07ecc159c92af3ef6042b52ff45ee.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/application.self-85a3df08aab34bc6a22c0cf18bd349b5a3fda5edca3e6dead5e0390446173b12.js?body=1" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/assets/logo1-488b30726113cd0962bb53620bf63ad7b816daa187f2583dc417d44ab2ae58d0.png" for 200.0.118.173 at 2018-05-10 02:47:23 +0000
+Started GET "/images/favicon.ico" for 200.0.118.173 at 2018-05-10 02:47:24 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+Started GET "/users/sign_in" for 200.0.118.173 at 2018-05-10 02:47:35 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 120ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 200.0.118.173 at 2018-05-10 02:47:45 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OWEgfZqCR8en7gD7UVKkMxvgV4Hl52BisDgUBcz5zetXpum7lkGvJF4rdfByih32PdJFXO+hnjnjiWWM+bJoeQ==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 75ms (ActiveRecord: 0.7ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OWEgfZqCR8en7gD7UVKkMxvgV4Hl52BisDgUBcz5zetXpum7lkGvJF4rdfByih32PdJFXO+hnjnjiWWM+bJoeQ==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.erb (4.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 207ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 200.0.118.173 at 2018-05-10 02:47:49 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E3umWq7zQ4+MncoQ5zAqxwYLj3rntt/E8HNo46D/8R99vG+cojCrbHVYvxvE6JMCIDmdp+3wIZ+jwhlqlbRUjQ==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "a@a.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", "2018-05-10 02:47:49.560299"], ["last_sign_in_at", "2018-05-10 01:54:15.153430"], ["last_sign_in_ip", "200.0.118.173"], ["sign_in_count", 5], ["updated_at", "2018-05-10 02:47:49.562846"], ["id", 6]]
+  [1m[35m (15.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://turestaurante-gbarzola1.c9users.io/
+Completed 302 Found in 108ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/" for 200.0.118.173 at 2018-05-10 02:47:49 +0000
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+  Rendered restaurants/index.html.erb within layouts/application (9.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants/new" for 200.0.118.173 at 2018-05-10 02:47:56 +0000
+Processing by RestaurantsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/new.html.erb within layouts/application
+  Rendered restaurants/_form.html.erb (5.4ms)
+  Rendered restaurants/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 83ms (Views: 77.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/restaurants" for 200.0.118.173 at 2018-05-10 02:48:49 +0000
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J4FNd2gL1HZsgQKaV2NBiRrtE17LU51y3E0IYOQf4t2nMMn9fomRu5w8ZLtS7Wd48s6DhFiUy2naag+yiktl2Q==", "restaurant"=>{"razon_social"=>"Polleria ABC", "ruc"=>"123456789", "categoria"=>"Criollo", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f9557210ec8 @tempfile=#<Tempfile:/tmp/RackMultipart20180510-1671-tm7hlb.jpg>, @original_filename="polleria-pio-pio-chicken-iquitos-travel-guide-05.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"restaurant[avatar]\"; filename=\"polleria-pio-pio-chicken-iquitos-travel-guide-05.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Restaurant"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+[paperclip] Trying to link /tmp/RackMultipart20180510-1671-tm7hlb.jpg to /tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg
+[paperclip] Trying to link /tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg to /tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-12x2few.jpg
+Command :: file -b --mime '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-12x2few.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]'
+Command :: convert '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]' -auto-orient -resize "300x300" '/tmp/3d1c460c4fef4408991691181457b5c520180510-1671-xqgy4z'
+[paperclip] Trying to link /tmp/3d1c460c4fef4408991691181457b5c520180510-1671-xqgy4z to /tmp/a0f9855c43130111ec5d4be6443f30bc20180510-1671-1t0wy55
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]'
+Command :: convert '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg[0]' -auto-orient -resize "100x100" '/tmp/3d1c460c4fef4408991691181457b5c520180510-1671-cb7m91'
+[paperclip] Trying to link /tmp/3d1c460c4fef4408991691181457b5c520180510-1671-cb7m91 to /tmp/7289a9b9d3b47f012300b146fb40a93a20180510-1671-12uf3pm
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+[paperclip] Trying to link /tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-vnsv41.jpg to /tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-uy80e5.jpg
+Command :: file -b --mime '/tmp/1f062321777cf1fb528b2f200c575ced20180510-1671-uy80e5.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "restaurants" ("razon_social", "ruc", "categoria", "created_at", "updated_at", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["razon_social", "Polleria ABC"], ["ruc", 123456789], ["categoria", "Criollo"], ["created_at", "2018-05-10 02:48:49.720137"], ["updated_at", "2018-05-10 02:48:49.720137"], ["avatar_file_name", "polleria-pio-pio-chicken-iquitos-travel-guide-05.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 123404], ["avatar_updated_at", "2018-05-10 02:48:49.429165"]]
+  [1m[35m (11.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://turestaurante-gbarzola1.c9users.io/restaurants/20
+Completed 302 Found in 324ms (ActiveRecord: 12.9ms)
+
+
+Started GET "/restaurants/20" for 200.0.118.173 at 2018-05-10 02:48:49 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  Rendered collection of templates [0 times] (0.1ms)
+  Rendered sedes/_form.html.erb (6.5ms)
+  Rendered restaurants/show.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 86ms (Views: 81.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 02:49:18 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (4.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assetsmarker-shadow.png" for 200.0.118.173 at 2018-05-10 02:49:30 +0000
+Started GET "/assetsmarker-icon.png" for 200.0.118.173 at 2018-05-10 02:49:30 +0000
+Started POST "/restaurants/20/sedes" for 200.0.118.173 at 2018-05-10 02:49:39 +0000
+Processing by SedesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tNpe2rWCqsz+obPFfgg9asjaR7ZMGZFCiexvEgA9Oy00a9pQowDvAQ4c1eR7hhubIPnXbN/ex1mPy2jAbmm8KQ==", "sede"=>{"direccion"=>"Av. Salaverry 666", "cantidad_de_mesas"=>"15", "latitud"=>"-12.062730401164742", "longitud"=>"-76.94802761077882"}, "commit"=>"Crear sede", "restaurant_id"=>"20"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "sedes" ("direccion", "cantidad_de_mesas", "latitud", "longitud", "created_at", "updated_at", "restaurant_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["direccion", "Av. Salaverry 666"], ["cantidad_de_mesas", 15], ["latitud", "-12.062730401164742"], ["longitud", "-76.94802761077882"], ["created_at", "2018-05-10 02:49:39.588746"], ["updated_at", "2018-05-10 02:49:39.588746"], ["restaurant_id", 20]]
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://turestaurante-gbarzola1.c9users.io/restaurants/20
+Completed 302 Found in 29ms (ActiveRecord: 17.5ms)
+
+
+Started GET "/restaurants/20" for 200.0.118.173 at 2018-05-10 02:49:39 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  Rendered collection of sedes/_sede.html.erb [1 times] (1.7ms)
+  Rendered sedes/_form.html.erb (4.6ms)
+  Rendered restaurants/show.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 90ms (Views: 85.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assetsmarker-icon.png" for 200.0.118.173 at 2018-05-10 02:50:20 +0000
+Started GET "/assetsmarker-shadow.png" for 200.0.118.173 at 2018-05-10 02:50:20 +0000
+Started POST "/restaurants/20/sedes" for 200.0.118.173 at 2018-05-10 02:50:22 +0000
+Processing by SedesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DA975O5wq0MRClE7kfMgDDPeZe3hTkhk0YTapJRXqLiMvv9u+PLujuG3NxqUfQb92/31N3KJHn/Xo912+gMvvA==", "sede"=>{"direccion"=>"Av. Salaverry 777", "cantidad_de_mesas"=>"13", "latitud"=>"-12.075245677979085", "longitud"=>"-77.09243774414064"}, "commit"=>"Crear sede", "restaurant_id"=>"20"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "sedes" ("direccion", "cantidad_de_mesas", "latitud", "longitud", "created_at", "updated_at", "restaurant_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["direccion", "Av. Salaverry 777"], ["cantidad_de_mesas", 13], ["latitud", "-12.075245677979085"], ["longitud", "-77.09243774414064"], ["created_at", "2018-05-10 02:50:22.735125"], ["updated_at", "2018-05-10 02:50:22.735125"], ["restaurant_id", 20]]
+  [1m[35m (14.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://turestaurante-gbarzola1.c9users.io/restaurants/20
+Completed 302 Found in 24ms (ActiveRecord: 15.3ms)
+
+
+Started GET "/restaurants/20" for 200.0.118.173 at 2018-05-10 02:50:22 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  Rendered collection of sedes/_sede.html.erb [2 times] (2.5ms)
+  Rendered sedes/_form.html.erb (4.6ms)
+  Rendered restaurants/show.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 89ms (Views: 84.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 02:50:29 +0000
+Processing by Api::V1::RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/restaurants/20/sedes" for 132.157.129.134 at 2018-05-10 02:50:34 +0000
+Processing by Api::V1::SedesController#index as HTML
+  Parameters: {"restaurant_id"=>"20"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ? ORDER BY created_at DESC[0m  [["restaurant_id", 20]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assetsmarker-icon.png" for 200.0.118.173 at 2018-05-10 02:50:44 +0000
+Started GET "/assetsmarker-shadow.png" for 200.0.118.173 at 2018-05-10 02:50:44 +0000
+Started POST "/restaurants/20/sedes" for 200.0.118.173 at 2018-05-10 02:50:45 +0000
+Processing by SedesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/lM/gCW1qC7J9pOE9I4fAU2eP3q2R2J6NrgWj5AP2LnSMh0FhSTbUuavG8WXB6N7RXoJ3keS5Lu/eeIUBS4Zg==", "sede"=>{"direccion"=>"Av. Salaverry 888", "cantidad_de_mesas"=>"60", "latitud"=>"-12.062098261231617", "longitud"=>"-77.02862262725831"}, "commit"=>"Crear sede", "restaurant_id"=>"20"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "sedes" ("direccion", "cantidad_de_mesas", "latitud", "longitud", "created_at", "updated_at", "restaurant_id") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["direccion", "Av. Salaverry 888"], ["cantidad_de_mesas", 60], ["latitud", "-12.062098261231617"], ["longitud", "-77.02862262725831"], ["created_at", "2018-05-10 02:50:45.741411"], ["updated_at", "2018-05-10 02:50:45.741411"], ["restaurant_id", 20]]
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://turestaurante-gbarzola1.c9users.io/restaurants/20
+Completed 302 Found in 23ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/restaurants/20" for 200.0.118.173 at 2018-05-10 02:50:45 +0000
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  [1m[36mSede Load (0.3ms)[0m  [1m[34mSELECT "sedes".* FROM "sedes" WHERE "sedes"."restaurant_id" = ?[0m  [["restaurant_id", 20]]
+  Rendered collection of sedes/_sede.html.erb [3 times] (2.6ms)
+  Rendered sedes/_form.html.erb (4.0ms)
+  Rendered restaurants/show.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 81ms (Views: 75.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/restaurants/13/sedes/1/platos" for 132.157.129.134 at 2018-05-10 02:50:56 +0000
+Processing by Api::V1::PlatosController#index as */*
+  Parameters: {"restaurant_id"=>"13", "sede_id"=>"1"}
+  [1m[36mSede Load (0.4ms)[0m  [1m[34mSELECT  "sedes".* FROM "sedes" WHERE "sedes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPlato Load (0.3ms)[0m  [1m[34mSELECT "platos".* FROM "platos" WHERE "platos"."sede_id" = ? ORDER BY created_at DESC[0m  [["sede_id", 1]]
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/restaurants" for 132.157.129.134 at 2018-05-10 02:51:06 +0000
+Processing by Api::V1::RestaurantsController#index as */*
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" ORDER BY created_at DESC[0m
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.7ms)
+
+

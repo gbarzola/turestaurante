@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
   get 'mensajes/respuesta'
+  get 'mensajes/index'
 
   post 'user_token' => 'user_token#create'
   resources :platos
